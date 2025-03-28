@@ -1,0 +1,67 @@
+/* admin.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.admin-header {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.admin-header .logo {
+    font-size: 1.5em;
+}
+
+.admin-header .user-info a {
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.admin-menu {
+    background-color: #444;
+    color: white;
+}
+
+.admin-menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.admin-menu li {
+    padding: 10px 20px;
+}
+
+.admin-menu a {
+    color: white;
+    text-decoration: none;
+}
+
+.admin-menu a:hover {
+    text-decoration: underline;
+}
+
+.admin-container {
+    padding: 20px;
+}
+
+.admin-footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    margin-top: 30px;
+
+    bottom: 0;
+    width: 100%;
+}
+

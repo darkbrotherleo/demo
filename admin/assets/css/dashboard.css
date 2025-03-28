@@ -1,0 +1,64 @@
+:root {
+    --primary-color: #2c3e50;
+    --secondary-color: #3498db;
+    --accent-color: #e74c3c;
+    --background-color: #f5f6fa;
+    --text-color: #2c3e50;
+}
+
+.dashboard-container {
+    display: grid;
+    grid-template-rows: auto 1fr;
+    min-height: 100vh;
+    background-color: var(--background-color);
+}
+
+.dashboard-header {
+    background: var(--primary-color);
+    color: white;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.tab-navigation {
+    background: white;
+    padding: 1rem;
+    border-radius: 8px;
+    margin: 1rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.tab-list {
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.tab-item {
+    padding: 0.75rem 1.5rem;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+}
+
+.tab-item:hover {
+    background: rgba(52, 152, 219, 0.1);
+}
+
+.tab-item.active {
+    background: var(--secondary-color);
+    color: white;
+}
+
+.content-wrapper {
+    background: white;
+    margin: 1rem;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}

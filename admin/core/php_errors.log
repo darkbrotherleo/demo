@@ -1,0 +1,33 @@
+[15-Mar-2025 09:34:06 UTC] Lỗi nhập dữ liệu: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'TERNI3JZ' for key 'PRIMARY'
+#0 C:\MAMP\htdocs\demo\admin\core\process_import.php(62): PDOStatement->execute(Array)
+#1 {main}
+[15-Mar-2025 10:01:53 UTC] PHP Warning:  Undefined variable $startTime in C:\MAMP\htdocs\demo\admin\core\process_import.php on line 161
+[15-Mar-2025 10:01:53 UTC] PHP Warning:  Undefined variable $totalRows in C:\MAMP\htdocs\demo\admin\core\process_import.php on line 165
+[15-Mar-2025 10:01:53 UTC] PHP Warning:  Undefined variable $successRows in C:\MAMP\htdocs\demo\admin\core\process_import.php on line 166
+[15-Mar-2025 10:01:53 UTC] PHP Warning:  Undefined variable $duplicateRows in C:\MAMP\htdocs\demo\admin\core\process_import.php on line 167
+[15-Mar-2025 10:03:20 UTC] PHP Warning:  Undefined variable $startTime in C:\MAMP\htdocs\demo\admin\core\process_import.php on line 161
+[15-Mar-2025 10:03:43 UTC] PHP Warning:  Undefined variable $startTime in C:\MAMP\htdocs\demo\admin\core\process_import.php on line 161
+[16-Mar-2025 08:03:04 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function finfo_open() in C:\MAMP\htdocs\demo\admin\core\process_import.php:43
+Stack trace:
+#0 {main}
+  thrown in C:\MAMP\htdocs\demo\admin\core\process_import.php on line 43
+[16-Mar-2025 08:05:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function finfo_open() in C:\MAMP\htdocs\demo\admin\core\process_import.php:44
+Stack trace:
+#0 {main}
+  thrown in C:\MAMP\htdocs\demo\admin\core\process_import.php on line 44
+[16-Mar-2025 08:06:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function finfo_open() in C:\MAMP\htdocs\demo\admin\core\process_import.php:43
+Stack trace:
+#0 {main}
+  thrown in C:\MAMP\htdocs\demo\admin\core\process_import.php on line 43
+[16-Mar-2025 08:12:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function finfo_open() in C:\MAMP\htdocs\demo\admin\core\process_import.php:43
+Stack trace:
+#0 {main}
+  thrown in C:\MAMP\htdocs\demo\admin\core\process_import.php on line 43
+[16-Mar-2025 08:16:23 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function finfo_open() in C:\MAMP\htdocs\demo\admin\core\process_import.php:44
+Stack trace:
+#0 {main}
+  thrown in C:\MAMP\htdocs\demo\admin\core\process_import.php on line 44
+[16-Mar-2025 08:20:33 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function finfo_open() in C:\MAMP\htdocs\demo\admin\core\process_import.php:44
+Stack trace:
+#0 {main}
+  thrown in C:\MAMP\htdocs\demo\admin\core\process_import.php on line 44
